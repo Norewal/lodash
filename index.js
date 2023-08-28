@@ -44,3 +44,4 @@ console.log(_.startCase('foo**Bar'));
 console.log(_.startCase('foO**BAR'));
 console.log(_.startCase('-foo-bar-'));
 
+
