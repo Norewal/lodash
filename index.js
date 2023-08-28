@@ -54,3 +54,13 @@ console.log(_.padStart('abc', 20, '+-'));
 console.log(_.padEnd('abc', 9));
 console.log(_.padEnd('abc', 10, '-'));
 console.log(_.padEnd('abc', 20, '+-'));
+
+console.log(_.toUpper('--> _.trim & _.trimStart & _.trimEnd'));
+console.log(_.trim(' hello     '));
+console.log(_.trim('&&&hello&', '&'));
+console.log(_.trim('+-hello-+', '+-'));
+console.log(_.map(['hello     ', '  bye '],  _.trim));
+console.log(_.trimStart(' hello     '));
+console.log(_.trimEnd(' hello     '));
+console.log(_.trimStart('+hello+', '+'));
+console.log(_.trimEnd('+hello+', '+'));
