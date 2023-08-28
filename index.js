@@ -44,4 +44,13 @@ console.log(_.startCase('foo**Bar'));
 console.log(_.startCase('foO**BAR'));
 console.log(_.startCase('-foo-bar-'));
 
-
+console.log(_.toUpper('--> _.pad & _.padStart & _.padEnd'));
+console.log(_.pad('abc', 9));
+console.log(_.pad('abc', 10, '-'));
+console.log(_.pad('abc', 20, '+-'));
+console.log(_.padStart('abc', 9));
+console.log(_.padStart('abc', 10, '-'));
+console.log(_.padStart('abc', 20, '+-'));
+console.log(_.padEnd('abc', 9));
+console.log(_.padEnd('abc', 10, '-'));
+console.log(_.padEnd('abc', 20, '+-'));
